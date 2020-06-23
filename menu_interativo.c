@@ -152,7 +152,7 @@ else{
     printf("Insira 3 numeros\n");
     scanf("%f%f%f",&a,&b,&c);
     //vai ser printado em ordem decrescente necessariamente o a o b e o c, logo reorganizaremos os valores inseridos
-     if (a <= b)//temos q botar q o b sera igual ao a, logo x=a,a=b,b=x{faz o caso contrário}
+     if (a <= b)//temos q botar q o b sera igual ao a, logo x=a,a=b,b=x{faz o caso contrÃ¡rio}
     {
 	    x = a;
 	    a = b;
