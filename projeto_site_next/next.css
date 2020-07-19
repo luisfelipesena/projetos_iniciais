@@ -1,0 +1,130 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bloco_nav {
+    display: inline-block;
+    margin-top: 1.1%;
+    margin-left: 22%;
+    margin-bottom: 30px;
+    
+}
+
+
+#top_logo {
+    display: inline-block;
+    position: absolute;
+    width: 75px;
+    height: 80px;
+    margin-left: 20px;
+    margin-right: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.itens_nav {
+    color: #7f7f7f;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 27px;
+}
+
+.conta {
+    display: inline-block;
+    width: 160px;
+    height: 43px;
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 300px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.main2 {
+    display: inline-block;
+    position: relative;
+    top: -435px;
+    left: 750px;
+    color: white;
+    width: 51%;
+    height: 850px;
+    background-color: black;
+}
+
+.titulo{
+    display: inline-block;
+    font-size: 35px;
+    width: 220px;
+    line-height: 37px;
+    margin-left: 150px;
+    margin-top: 175px;
+}
+
+.descricao {
+    margin-left: 150px;
+    margin-top: -10px;
+    width: 329px;
+}
+
+.saques {
+    display: inline-block;
+    margin-left: 97px;
+    margin-top: 210px;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid grey;=
+}
+
+.saques_descricao {
+    display: inline-block;
+    font-size: 35px;
+    margin-left: 97px;
+    line-height: 50px;;
+    width: 190px;
+}
+
+.saques_descricao_p {
+    display: inline-block;
+    margin-left: 97px;
+    width: 210px;
+    line-height: 30px;
+}
+
+.abra_conta {
+    display: inline-block;
+    position: relative;
+    top: -665px;
+    left: -270px;
+    font-size: 17px;
+    width: 250px;
+    height: 50px;
+    background-color: #00ff5f;
+    border: 1px solid #00ff5f;
+    border-radius: 7px;
+
+}
+
+#celular {
+    display: inline-block;
+    position: relative;
+    top: -650px;
+    left: 510px;
+  
+}
+
+#cartao {
+    display: inline-block;
+    position: relative;
+    top: -1050px;
+    left: 150px;
+}
+
+#redes {
+    display: inline-block;
+    position: relative;
+    top: -1400px;
+    left: 25px;
+}
