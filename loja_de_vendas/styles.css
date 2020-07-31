@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    min-height: 90px;
+    background-color: rgb(19, 16, 16);
+}
+
+.nav h1 {
+    color: white;
+    margin-left: 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 25px;
+}
+
+.nav h1:hover{
+    color: red;
+}
+.nav ul li {
+    display: block;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white; 
+}
+
+.nav ul li a:hover {
+    color:red;
+}
+.main {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 50px;
+}
+
+.main div {
+    box-shadow: 5px 5px 15px black;
+    background-color: #f4f4f4;
+    padding: 15px;
+    flex: 1 1 350px;
+    margin: 15px;
+}
+
+.main div p:hover{
+    flex: 2 1 auto;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    transition: .3s ease-in-out;
+    background-color: lawngreen;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    background-color: rgba(19,16,16);
+}
+
+.footer ul {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    min-height: 40px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+.footer ul li a{
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+    color: red;
+}
