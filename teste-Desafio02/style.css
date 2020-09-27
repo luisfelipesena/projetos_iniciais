@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  color: white;
+  background-color: #1d2226;
+}
+
+body,
+input {
+  font-family: "Manrope", sans-serif;
+}
+
+.cabecalho {
+  background-color: #0f1c26;
+  padding: 12px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.cabecalho .centro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1278px;
+  width: 100%;
+}
+
+.cabecalho .centro .esquerda {
+  display: flex;
+  align-items: center;
+  width: 510px;
+}
+
+.cabecalho input {
+  height: 56px;
+  background-color: #171b1e;
+  color: white;
+  border: 0;
+  padding: 12px;
+  min-width: 100%;
+}
+
+.cabecalho .input {
+  width: 100%;
+  margin-left: 24px;
+  position: relative;
+}
+
+.cabecalho .input img {
+  position: absolute;
+  right: 12px;
+  top: 16px;
+}
+
+.cabecalho a {
+  display: flex;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cabecalho .usuario {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho .usuario img {
+  margin-left: 6px;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
