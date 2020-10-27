@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #0f171e;
+}
+
+.header {
+  width: 100%;
+  padding: 1em 2em;
+  max-height: 80px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.esquerda {
+}
+
+.header .esquerda img {
+  max-width: 130px;
+}
+
+.header .direita img {
+  max-width: 30px;
+}
