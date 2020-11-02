@@ -16,6 +16,7 @@ function App() {
   const [pesquisaInput, setPesquisaInput] = React.useState(null);
   const [form, setForm] = React.useState(null);
   const [trailer, setTrailer] = React.useState(null);
+
   const [clicado, setClicado] = React.useState(false);
 
   React.useEffect(() => {
